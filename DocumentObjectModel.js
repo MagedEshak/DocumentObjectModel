@@ -167,15 +167,3 @@ myDivElement.appendChild(myParagraphElement);
 //Append to body
 document.body.appendChild(myHr);
 document.body.appendChild(myDivElement);
-
-
-
-console.log("-".repeat(20));
-console.log("7- DOM Events");
-console.log("-".repeat(20));
-
-
-
-console.log("-".repeat(20));
-console.log("8- Validate Form And Prevent Default");
-console.log("-".repeat(20));

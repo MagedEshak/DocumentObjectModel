@@ -22,9 +22,24 @@ console.log(element.classList.contains("show"));
 console.log(element.classList.item("3"));
 
 element.onclick = function () {
-  element.classList.toggle("show");
+ element.classList.toggle("show");
 };
 
 console.log("-".repeat(20));
 console.log("6- CSS Styling And Stylesheet");
 console.log("-".repeat(20));
+
+
+element.style.color = "red";
+element.style.fontSize = "50px";
+
+element.style.cssText = "font-size: 70px; font-weight: 900; color: green;";
+
+element.style.removeProperty("color");
+element.style.setProperty("background-color", "red", "important");
+
+element.style.removeProperty("background-color");
+console.log(document.styleSheets[0].cssRules[0].style.removeProperty("line-height"));
+console.log(document.styleSheets[0].cssRules[0].style.setProperty("color", "blue"));
+
+

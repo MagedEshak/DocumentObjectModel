@@ -9,6 +9,8 @@ console.log("-".repeat(20));
 let userInput = document.querySelector("[name = 'username']");
 let ageInput = document.querySelector("[name = 'age']");
 
+
+
 document.forms[0].onsubmit = function (e) {
     let userValid = false;
     let ageValid = false;
